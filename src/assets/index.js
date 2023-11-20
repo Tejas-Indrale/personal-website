@@ -22,6 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png";
+import python from './tech/python.png';
+import basketball from './tech/basketball.png';
+import guitar from './tech/guitar.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -44,6 +47,9 @@ export {
   css,
   docker,
   figma,
+  python,
+  basketball,
+  guitar,
   git,
   cpp,
   sql,

@@ -47,21 +47,25 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Certainly! Based on your studies in C++, cloud security research, and
-          React, you have acquired a well-rounded skill set that spans both
-          programming and security domains. In C++, you've delved into the
-          intricacies of a powerful and versatile programming language,
-          mastering its syntax and principles. Your exploration into cloud
-          security research reflects a commitment to understanding and
-          addressing the evolving challenges in securing cloud-based systems,
-          showcasing your dedication to staying abreast of cutting-edge
-          technologies and cybersecurity concerns. Additionally, your
-          proficiency in React signifies your ability to develop dynamic and
-          responsive user interfaces, highlighting your expertise in front-end
-          web development. Altogether, your knowledge in C++, cloud security
-          research, and React positions you at the intersection of software
-          development and cybersecurity, making you well-equipped to tackle
-          complex challenges in today's technology landscape.
+          I've delved into the intricacies of Python, SQL, and data analysis,
+          forming a robust foundation for navigating the world of data. This
+          skill set enables me to proficiently manage and analyze large
+          datasets, extracting valuable insights. The integration of Power BI
+          into my toolkit amplifies my ability to create compelling
+          visualizations, transforming raw data into actionable information.
+          Beyond the realm of technology, I find joy and expression in playing
+          the guitar, exploring the artistic side of my personality. This
+          creative outlet not only serves as a source of relaxation but also
+          contributes to a well-balanced lifestyle. Meanwhile, my involvement in
+          basketball reflects my passion for physical activity and teamwork,
+          fostering skills beyond the digital landscape. In my view, the fusion
+          of technical expertise and personal interests creates a unique and
+          versatile profile. It opens doors to diverse opportunities, from
+          contributing to data-driven decision-making in professional spheres to
+          finding innovative ways to merge my skills with my hobbies. As I
+          continue on this journey, I aim to explore advanced aspects of data
+          science and seek avenues where my multifaceted skill set can bring a
+          distinctive perspective to both my work and personal endeavors.
         </motion.p>
         {/* <img
           src={me}
