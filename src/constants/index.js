@@ -13,6 +13,7 @@ import {
   mongodb,
   git,
   sql,
+  cpp,
   meta,
   starbucks,
   tesla,
@@ -39,7 +40,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Python Developer",
+    title: "Cloud Computing",
     icon: web,
   },
   {
@@ -95,7 +96,11 @@ const technologies = [
   },
   {
     name: "sql",
-    icon:sql,
+    icon: sql,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
   }
 ];
 
