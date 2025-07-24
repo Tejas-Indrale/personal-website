@@ -49,23 +49,24 @@ const About = () => {
         >
           I've delved into the intricacies of Python, SQL, and data analysis,
           forming a robust foundation for navigating the world of data. This
-          skill set enables me to proficiently manage and analyze large
-          datasets, extracting valuable insights. The integration of Power BI
-          into my toolkit amplifies my ability to create compelling
-          visualizations, transforming raw data into actionable information.
-          Beyond the realm of technology, I find joy and expression in playing
-          the guitar, exploring the artistic side of my personality. This
-          creative outlet not only serves as a source of relaxation but also
-          contributes to a well-balanced lifestyle. Meanwhile, my involvement in
-          basketball reflects my passion for physical activity and teamwork,
-          fostering skills beyond the digital landscape. In my view, the fusion
-          of technical expertise and personal interests creates a unique and
-          versatile profile. It opens doors to diverse opportunities, from
-          contributing to data-driven decision-making in professional spheres to
-          finding innovative ways to merge my skills with my hobbies. As I
-          continue on this journey, I aim to explore advanced aspects of data
-          science and seek avenues where my multifaceted skill set can bring a
-          distinctive perspective to both my work and personal endeavors.
+          skill set enables me to proficiently manage, clean, and analyze large
+          datasets, extracting valuable insights that support informed decision-making.
+          The integration of Power BI into my toolkit enhances my ability to build
+          interactive dashboards and visualizations, translating raw data into
+          clear, impactful narratives.
+
+          Beyond the realm of data and technology, I find joy and creativity in
+          playing the guitar, a personal outlet that brings balance and emotional depth
+          to my routine. This musical pursuit fuels my imagination and helps me approach
+          problems with a fresh perspective. At the same time, my passion for basketball
+          keeps me physically active and sharp, instilling values of teamwork, focus, and
+          resilience — all of which carry over into my professional growth.
+
+          As I move forward, I aim to deepen my journey into data science, exploring
+          machine learning and AI applications while continuing to seek projects that
+          combine logic, storytelling, and personal expression. I believe this fusion
+          of technical expertise and personal interest defines my unique identity and
+          opens the door to diverse, meaningful opportunities in both work and life.
         </motion.p>
         {/* <img
           src={me}
