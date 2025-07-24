@@ -197,7 +197,7 @@ const testimonials = [
 ];
 
 import sentiment from "../assets/sentiment.png";
-import rainfall from "../assets/nowcasting.png";
+import nowcasting from "../assets/nowcasting.png";
 import devnagari from "../assets/devnagari.png";
 
 const projects = [
