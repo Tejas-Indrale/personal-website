@@ -202,35 +202,36 @@ import devnagari from "../assets/devnagari.png";
 
 const projects = [
   {
-    name: "Twitter Sentiment Analysis",
-    description: "A machine learning project that classifies tweets...",
+    name: "Sentiment Analysis using NLP",
+    description: "A machine learning project focused on analyzing sentiments in tweets using Natural Language Processing (NLP). It classifies text into positive, negative, or neutral categories. The project uses real-world Twitter data and showcases how social media content can be mined to understand public emotions and trends.",
     tags: [
       { name: "python", color: "blue-text-gradient" },
       { name: "nlp", color: "green-text-gradient" },
       { name: "streamlit", color: "pink-text-gradient" },
     ],
     image: sentiment,  // 👈 here you use the variable name
-    source_code_link: "https://github.com/your-username/twitter-sentiment-analysis",
+    source_code_link: "https://github.com/Tejas-Indrale/NLP-Sentiment-Analysis",
   },
   {
-    name: "Rainfall Nowcasting",
-    description: "Deep learning-based system for rainfall forecasting...",
+    name: "Precipitation Nowcasting and Downscalling",
+    description: "Developed a deep learning-based rainfall nowcasting system using ConvLSTM and Vision Transformers. Trained on 13 years of radar and satellite data from the Indian Meteorological Department (IMD) and IITM, the model accurately predicts short-term precipitation across Indian regions.",
+
     tags: [
       { name: "convlstm", color: "blue-text-gradient" },
       { name: "transformer", color: "green-text-gradient" },
     ],
     image: nowcasting,
-    source_code_link: "https://github.com/your-username/rainfall-nowcasting",
+    source_code_link: "https://github.com/Tejas-Indrale/Precipitation-Nowcasting-and-Downscalling",
   },
   {
     name: "Devanagari OCR",
-    description: "CNN-based model to recognize handwritten Devanagari characters...",
+    description: "Built a CNN model that classifies handwritten Devanagari script characters with high accuracy. The project demonstrates deep learning and image classification using TensorFlow and OpenCV.",
     tags: [
       { name: "cnn", color: "blue-text-gradient" },
       { name: "deeplearning", color: "pink-text-gradient" },
     ],
     image: devnagari,
-    source_code_link: "https://github.com/your-username/devanagari-recognition",
+    source_code_link: "https://github.com/Tejas-Indrale/devanagari-character-recognition",
   },
 ];
 
