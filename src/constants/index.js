@@ -196,70 +196,44 @@ const testimonials = [
   },
 ];
 
+import sentiment from "../assets/sentiment.png";
+import rainfall from "../assets/nowcasting.png";
+import devnagari from "../assets/devnagari.png";
+
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Twitter Sentiment Analysis",
+    description: "A machine learning project that classifies tweets...",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "nlp", color: "green-text-gradient" },
+      { name: "streamlit", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sentiment,  // 👈 here you use the variable name
+    source_code_link: "https://github.com/your-username/twitter-sentiment-analysis",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Rainfall Nowcasting",
+    description: "Deep learning-based system for rainfall forecasting...",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "convlstm", color: "blue-text-gradient" },
+      { name: "transformer", color: "green-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nowcasting,
+    source_code_link: "https://github.com/your-username/rainfall-nowcasting",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Devanagari OCR",
+    description: "CNN-based model to recognize handwritten Devanagari characters...",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "cnn", color: "blue-text-gradient" },
+      { name: "deeplearning", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: devnagari,
+    source_code_link: "https://github.com/your-username/devanagari-recognition",
   },
 ];
+
+
 
 export { services, technologies, experiences, testimonials, projects };
